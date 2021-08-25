@@ -1,0 +1,18 @@
+<!-- esto es un comentario -->
+<!--
+1) indicar el metodo del formulario.
+2) los campos de ingreso tienen que tener nombre
+3) debe haber un boton de envio (submit)
+4) todos los datos deben estar dentro de un formulario
+5) agregar  csrf_token  para obtener el token
+-->
+
+<form method="post">
+    {% csrf_token %}
+    num1:<input name="num1" value="{{ num1 }}" type="text"/><br>
+    num2:<input name="num2" value="{{ num2 }}" type="text"/><br>
+    <input type="submit" value="Sumar"/><br>
+</form>
+--------<br>
+total:{{ total }}<br>
+
