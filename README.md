@@ -1,6 +1,20 @@
+# Pasos para crear el proyecto
+
+1) crear el proyecto (pycharm new project django)
+2) crea una aplicacion (por linea de comando)
+3) modificar el settings.py (agregar la aplicacion)
+4) creamos el modelo.  <---
+5) hacemos las migraciones (por linea de comando). Eso hace que se creen las tablas
+6) crear las vistas
+7) creamos los templates
+8) editamos en urls.py las direcciones.
+
+
+# Proyecto Inicial
+
 1) Creando un proyecto de Django.
 
-2) crear una aplicacion
+2crear una aplicacion
 
 Usando la linea de comando:
 
